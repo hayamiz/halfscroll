@@ -1,7 +1,7 @@
 {
-  "name": "Smooth Key Scroll",
-  "version": "1.0.3.6",
-  "description": "Smooth scroll with the keyboard",
+  "name": "HalfScroll",
+  "version": "0.0.2",
+  "description": "Scroll only half a page with space key",
   "offline_enabled": true,
   "icons": {
     "128": "icon.png"
@@ -10,13 +10,12 @@
     {
       "matches": ["<all_urls>"],
       "exclude_matches":["*://aristidesfl.github.com/smoothkeyscroll*"],
-      "js": ["inject.js"]
+      "js": ["half.js"]
     }
   ],
   "permissions": [
      "storage"
    ],
-  "options_page": "options/options.html",
   "manifest_version": 2,
-  "homepage_url": "http://aristidesfl.github.com/smoothkeyscroll/"
+  "homepage_url": "http://hayamiz.com/"
 }
